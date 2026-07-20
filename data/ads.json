@@ -1,0 +1,46 @@
+[ {
+  "id" : 1,
+  "title" : "گوشی سامسونگ",
+  "description" : "در حد نو",
+  "price" : 5000000.0,
+  "city" : "تهران",
+  "categoryId" : 1,
+  "ownerId" : 2,
+  "status" : "DELETED"
+}, {
+  "id" : 2,
+  "title" : "Samsung Phone",
+  "description" : "Like new",
+  "price" : 5000000.0,
+  "city" : "Tehran",
+  "categoryId" : 1,
+  "ownerId" : 2,
+  "status" : "DELETED"
+}, {
+  "id" : 3,
+  "title" : "iphon",
+  "description" : "the best",
+  "price" : 1200000.0,
+  "city" : "mashhad",
+  "categoryId" : 1,
+  "ownerId" : 2,
+  "status" : "DELETED"
+}, {
+  "id" : 4,
+  "title" : "car",
+  "description" : "best of the bst",
+  "price" : 1.23444444E8,
+  "city" : "tehran",
+  "categoryId" : 2,
+  "ownerId" : 2,
+  "status" : "DELETED"
+}, {
+  "id" : 5,
+  "title" : "bmw",
+  "description" : "better than lambo",
+  "price" : 1.0E7,
+  "city" : "tehran",
+  "categoryId" : 2,
+  "ownerId" : 5,
+  "status" : "SOLD"
+} ]

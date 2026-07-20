@@ -1,0 +1,36 @@
+[ {
+  "id" : 1,
+  "username" : "Manager",
+  "password" : "$2a$10$s6L8hvEthykOgCnfjn3IPuOSaIGoHXIVt6RfDr21SdfpHJOUpkPGu",
+  "phone" : "09120000000",
+  "email" : "manager@example.com",
+  "role" : "ADMIN"
+}, {
+  "id" : 2,
+  "username" : "ali",
+  "password" : "$2a$10$jGi4lCozQSs8JetGuH952.puXndGC6b6rn8XufB/OWM9ScLNxmvVK",
+  "phone" : "09121111111",
+  "email" : "ali@test.com",
+  "role" : "ADMIN"
+}, {
+  "id" : 3,
+  "username" : "reza",
+  "password" : "$2a$10$CFqRm/2K4iUufzggvD9Ph.XZvcSCvQ0TEj73N/HfH0BuhVeeGmV72",
+  "phone" : "09122222222",
+  "email" : "reza@test.com",
+  "role" : "USER"
+}, {
+  "id" : 4,
+  "username" : "sara",
+  "password" : "$2a$10$TqNE/AApj8Fh1Snw.wDVw.MHFMkSlRnnJlU71v.BiN3OQXy3pIuMe",
+  "phone" : "09123333333",
+  "email" : "sara@test.com",
+  "role" : "ADMIN"
+}, {
+  "id" : 5,
+  "username" : "mohamad",
+  "password" : "$2a$10$wwy4OYPXHttTjljDEs6Ka.cU09sKD3opbT2NPwTRoLVdQpwb8BZ/K",
+  "phone" : "09345428756",
+  "email" : "mohamad@gmail.com",
+  "role" : "USER"
+} ]
