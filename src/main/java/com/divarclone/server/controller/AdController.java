@@ -25,7 +25,7 @@ public class AdController {
         this.authHelper = authHelper;
     }
 
-    // list of ad login requires
+    // list of ad login requires.
     @GetMapping
     public ResponseEntity<?> getAds(
             @RequestHeader("Authorization") String authHeader,
