@@ -1,0 +1,131 @@
+[ {
+  "id" : 1,
+  "title" : "گوشی سامسونگ",
+  "description" : "در حد نو",
+  "price" : 5000000.0,
+  "city" : "تهران",
+  "categoryId" : 1,
+  "ownerId" : 2,
+  "status" : "DELETED",
+  "imageFileName" : null
+}, {
+  "id" : 2,
+  "title" : "Samsung Phone",
+  "description" : "Like new",
+  "price" : 5000000.0,
+  "city" : "Tehran",
+  "categoryId" : 1,
+  "ownerId" : 2,
+  "status" : "DELETED",
+  "imageFileName" : null
+}, {
+  "id" : 3,
+  "title" : "iphon",
+  "description" : "the best",
+  "price" : 1200000.0,
+  "city" : "mashhad",
+  "categoryId" : 1,
+  "ownerId" : 2,
+  "status" : "DELETED",
+  "imageFileName" : null
+}, {
+  "id" : 4,
+  "title" : "car",
+  "description" : "best of the bst",
+  "price" : 1.23444444E8,
+  "city" : "tehran",
+  "categoryId" : 2,
+  "ownerId" : 2,
+  "status" : "DELETED",
+  "imageFileName" : null
+}, {
+  "id" : 5,
+  "title" : "bmw",
+  "description" : "better than lambo",
+  "price" : 1.0E7,
+  "city" : "tehran",
+  "categoryId" : 2,
+  "ownerId" : 5,
+  "status" : "DELETED",
+  "imageFileName" : null
+}, {
+  "id" : 6,
+  "title" : "bmw",
+  "description" : "best car ever",
+  "price" : 1.2E8,
+  "city" : "tehran",
+  "categoryId" : 3,
+  "ownerId" : 6,
+  "status" : "DELETED",
+  "imageFileName" : null
+}, {
+  "id" : 7,
+  "title" : "bens",
+  "description" : "all in one",
+  "price" : 1.23333333E8,
+  "city" : "tehran",
+  "categoryId" : 4,
+  "ownerId" : 2,
+  "status" : "DELETED",
+  "imageFileName" : null
+}, {
+  "id" : 8,
+  "title" : "porshe",
+  "description" : "made in germany",
+  "price" : 100.0,
+  "city" : "tehran",
+  "categoryId" : 4,
+  "ownerId" : 2,
+  "status" : "DELETED",
+  "imageFileName" : null
+}, {
+  "id" : 9,
+  "title" : "ad",
+  "description" : "adasd",
+  "price" : 21231.0,
+  "city" : "tehran",
+  "categoryId" : 1,
+  "ownerId" : 2,
+  "status" : "APPROVED",
+  "imageFileName" : null
+}, {
+  "id" : 10,
+  "title" : "er",
+  "description" : "werw",
+  "price" : 1312.0,
+  "city" : "tehran",
+  "categoryId" : 3,
+  "ownerId" : 2,
+  "status" : "APPROVED",
+  "imageFileName" : null
+}, {
+  "id" : 11,
+  "title" : "piano",
+  "description" : "for music ",
+  "price" : 1.0E9,
+  "city" : "tehran",
+  "categoryId" : 2,
+  "ownerId" : 2,
+  "status" : "APPROVED",
+  "imageFileName" : null
+}, {
+  "id" : 12,
+  "title" : "df",
+  "description" : "dsf",
+  "price" : 123444.0,
+  "city" : "tehran",
+  "categoryId" : 2,
+  "ownerId" : 2,
+  "status" : "PENDING",
+  "imageFileName" : null
+}, {
+  "id" : 13,
+  "title" : "piano white",
+  "description" : "for sale because of travel",
+  "price" : 1.0E8,
+  "city" : "tehran",
+  "categoryId" : 2,
+  "ownerId" : 2,
+  "status" : "APPROVED",
+  "imageFileName" : "ad_13_c69dfd96-f00d-427b-adab-76fc1f48b821.jpg"
+} ]
