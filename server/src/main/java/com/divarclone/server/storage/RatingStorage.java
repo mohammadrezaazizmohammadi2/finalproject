@@ -58,7 +58,7 @@ public class RatingStorage {
         return rating;
     }
 //updating rating status
-    
+
     public synchronized boolean update(Rating updatedRating) {
         List<Rating> ratings = findAll();
         for (int i = 0; i < ratings.size(); i++) {

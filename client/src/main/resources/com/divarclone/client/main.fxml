@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.divarclone.client.controller.MainController"
+      style="-fx-background-color: #0F1B33;">
+
+    <VBox HBox.hgrow="ALWAYS">
+
+        <HBox spacing="10" alignment="CENTER_LEFT"
+              style="-fx-background-color: #1B2A4A;">
+            <padding>
+                <Insets top="16" right="20" bottom="16" left="20"/>
+            </padding>
+
+            <ComboBox fx:id="categoryComboBox" promptText="Category"
+                      style="-fx-background-radius: 8;"/>
+
+            <TextField fx:id="cityField" promptText="City"
+                       style="-fx-background-radius: 8;"/>
+
+            <TextField fx:id="minPriceField" promptText="Min Price"
+                       style="-fx-background-radius: 8;"/>
+
+            <TextField fx:id="maxPriceField" promptText="Max Price"
+                       style="-fx-background-radius: 8;"/>
+
+            <ComboBox fx:id="sortComboBox" promptText="Sort"
+                      style="-fx-background-radius: 8;"/>
+
+            <Button text="Search"
+                    onAction="#handleSearch"
+                    style="-fx-background-color: #2E6FF2; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8; -fx-padding: 8 20;"/>
+        </HBox>
+
+        <ScrollPane fitToWidth="true" fitToHeight="true"
+                    VBox.vgrow="ALWAYS"
+                    style="-fx-background-color: transparent; -fx-background: transparent;">
+            <FlowPane fx:id="adsFlowPane"
+                      hgap="18" vgap="18"
+                      alignment="TOP_LEFT">
+                <padding>
+                    <Insets top="20" right="20" bottom="20" left="20"/>
+                </padding>
+            </FlowPane>
+        </ScrollPane>
+
+    </VBox>
+
+    <VBox spacing="4" alignment="TOP_CENTER"
+          prefWidth="200"
+          style="-fx-background-color: #111111;">
+        <padding>
+            <Insets top="24" right="16" bottom="20" left="16"/>
+        </padding>
+
+        <Label text="Home"
+               style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: white;">
+            <VBox.margin>
+                <Insets bottom="20"/>
+            </VBox.margin>
+        </Label>
+
+        <Button text="New Ad"
+                onAction="#handleNewAd"
+                maxWidth="Infinity"
+                style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-size: 14px; -fx-alignment: CENTER_LEFT; -fx-padding: 10 8;"/>
+
+        <Button text="My Ads"
+                onAction="#handleMyAds"
+                maxWidth="Infinity"
+                style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-size: 14px; -fx-alignment: CENTER_LEFT; -fx-padding: 10 8;"/>
+
+        <Button fx:id="allAdsButton"
+                text="All Ads"
+                onAction="#handleAllAds"
+                maxWidth="Infinity"
+                style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-size: 14px; -fx-alignment: CENTER_LEFT; -fx-padding: 10 8;"/>
+
+        <Button fx:id="adminPanelButton"
+                text="Admin Panel"
+                onAction="#handleAdminPanel"
+                maxWidth="Infinity"
+                style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-size: 14px; -fx-alignment: CENTER_LEFT; -fx-padding: 10 8;"/>
+
+        <Region VBox.vgrow="ALWAYS"/>
+
+        <Button text="Logout"
+                onAction="#handleLogout"
+                maxWidth="Infinity"
+                style="-fx-background-color: #E74C3C; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8; -fx-padding: 12;"/>
+
+    </VBox>
+
+</HBox>
