@@ -6,7 +6,7 @@ public class Session {
     private static String role;
     private static int userId;
 
-    // سازنده‌ی private تا کسی نتونه از این کلاس آبجکت بسازه (فقط static استفاده میشه)
+    //its privet wo no one can make a class of it
     private Session() {
     }
 
