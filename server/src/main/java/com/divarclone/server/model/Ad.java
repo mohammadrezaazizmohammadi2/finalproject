@@ -9,10 +9,8 @@ public class Ad {
     private int categoryId;
     private int ownerId;
     private String status; //  PENDING, APPROVED, REJECTED, DELETED, SOLD
-    private String imageFileName; // اسم فایل عکس روی سرور، ممکنه null باشه
+    private String imageFileName;
 
-    public Ad() {
-    }
 
     public Ad(int id, String title, String description, double price,
               String city, int categoryId, int ownerId, String status) {

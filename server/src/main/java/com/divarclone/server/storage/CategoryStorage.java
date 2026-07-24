@@ -39,11 +39,7 @@ public class CategoryStorage {
         }
     }
 
-    public synchronized Optional<Category> findById(int id) {
-        return findAll().stream()
-                .filter(c -> c.getId() == id)
-                .findFirst();
-    }
+
 
     // id will save automatically
     public synchronized Category save(Category category) {

@@ -23,9 +23,7 @@ public class ApiClient {
     private final HttpClient httpClient = HttpClient.newHttpClient();
     private final ObjectMapper mapper = new ObjectMapper();
 
-    // ---------- متدهای کمکی داخلی ----------
 
-    // یک درخواست GET با هدر Authorization می‌سازد و می‌فرستد
     private HttpResponse<String> sendGet(String path) throws IOException, InterruptedException {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(BASE_URL + path))
@@ -249,10 +247,7 @@ public class ApiClient {
         return sendPostNoBody("/admin/ads/" + id + "/reject");
     }
 
-    /*public List<User> getAllUsers() throws IOException, InterruptedException {
-        HttpResponse<String> response = sendGet("/admin/users");
-        return mapper.readValue(response.body(), new TypeReference<List<User>>() {});
-    }*/
+
     public List<User> getAllUsers() throws IOException, InterruptedException {
 
         HttpResponse<String> response = sendGet("/admin/users");
